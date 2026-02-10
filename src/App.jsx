@@ -6,8 +6,8 @@ import SubCategories from "./routes/SubCategories";
 function App() {
   return (
     <Routes>
-      <Route path="" element={<Categories />} />
-      <Route path="accessories" element={<SubCategories />} />
+      {/* <Route path="" element={<Categories />} /> */}
+      <Route path="" element={<SubCategories />} />
     </Routes>
   );
 }
