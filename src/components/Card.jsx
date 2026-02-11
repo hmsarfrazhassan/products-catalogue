@@ -5,6 +5,7 @@ const Card = ({ bgImage, title, outerLink }) => {
     <a
       href={outerLink}
       target="_blank"
+      rel="noopener noreferrer"
       style={{ backgroundImage: `url(${bgImage})` }}
       className={`relative h-60 w-full bg-no-repeat bg-center bg-cover rounded-lg transition-all duration-300 ease-out
   hover:-translate-y-2 hover:shadow-xl hover:shadow-gray-300`}
